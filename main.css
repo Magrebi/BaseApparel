@@ -1,0 +1,167 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/bg-pattern-desktop.svg);
+    padding: 5% 10% 0% 10%;
+}
+
+.logo {
+    margin-bottom: 20%;
+}
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+
+.mobileimg {
+    display: none;
+
+}
+
+.maintext span {
+    font-weight: 600;
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+
+.maintext span:first-child {
+    color: #dfbfbf;
+    font-weight: 300;
+    font-size: 90px;
+}
+
+.maintext p {
+    color: hsl(0, 36%, 70%);
+    line-height: 25px;
+    font-size: 19px;
+}
+
+.maillist {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.maillist input {
+    width: 500px;
+    border-radius: 25px;
+    border-color: hsl(0, 36%, 70%);
+    border-width: 1px;
+    height: 50px;
+}
+
+.maillist input::placeholder {
+    color: hsl(0, 36%, 70%);
+    padding-left: 20px;
+}
+
+.maillist button {
+    border-radius: 250px;
+    background: #ee9ca7;
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    height: 55px;
+    width: 100px;
+    border-width: 1px;
+    margin-left: -100px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+    
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .leftside {
+        display: flex;
+        flex-direction: column;
+        background-image: url(images/bg-pattern-desktop.svg);
+        padding: 5% 10% 0% 10%;
+    }
+    
+    .logo {
+        margin-bottom: 20%;
+    }
+    
+    .maintext {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+    
+    
+    .mobileimg {
+        display: none;
+    
+    }
+    
+    .maintext span {
+        font-weight: 600;
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+    
+    .maintext span:first-child {
+        color: #dfbfbf;
+        font-weight: 300;
+        font-size: 90px;
+    }
+    
+    .maintext p {
+        color: hsl(0, 36%, 70%);
+        line-height: 25px;
+        font-size: 19px;
+    }
+    
+    .maillist {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .maillist input {
+        width: 500px;
+        border-radius: 25px;
+        border-color: hsl(0, 36%, 70%);
+        border-width: 1px;
+        height: 50px;
+    }
+    
+    .maillist input::placeholder {
+        color: hsl(0, 36%, 70%);
+        padding-left: 20px;
+    }
+    
+    .maillist button {
+        border-radius: 250px;
+        background: #ee9ca7;
+        background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+        background: linear-gradient(to right, #ffdde1, #ee9ca7);
+        height: 55px;
+        width: 100px;
+        border-width: 1px;
+        margin-left: -100px;
+        color: white;
+    }
+    
+  }
