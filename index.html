@@ -10,24 +10,17 @@
   <link rel="stylesheet" href="reset.css" type="text/css">
   <link rel="stylesheet" href="main.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">
-
-
   <title>Frontend Mentor | Base Apparel coming soon page</title>
-
-
 </head>
-
 <body>
   <div class="container">
     <div class="leftside">
       <div class="logo">
         <img src="images/logo.svg" alt="logo">
       </div>
-      <!--Desktopta Bu Kısım yok-->
       <div class="mobileimage">
         <img src="images/hero-mobile.jpg" alt="hero-mobile">
       </div>
-      <!--Desktopta Bu Kısım yok-->
       <div class="maintext">
         <span>WE'RE</span>
         <span>COMING </br> SOON</span>
@@ -35,30 +28,32 @@
           Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our launch deals.</p>
       </div>
+      <script>
+      function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid email address!")
+    return (false)
+}</script>
       <div class="maillist">
-        <form action="#">
+        
+        <form action="ValidateEmail(mail)">
           <div class="input-container">
-          <input type="email" name="Email Address" placeholder="Email Address">
-          <button><img src="images/icon-arrow.svg" alt="button"></button>
-        </div>
-      </form>
-
+            <input type="email" name="Email Address" placeholder="Email Address" required>
+            <button><img src="images/icon-arrow.svg" alt="button"></button>
+          </div>
+        </form>
       </div>
-
     </div>
-
-    <!--Mobilde Bu Kısım yok-->
-
     <div class="rightside">
       <div class="mainimg">
         <img src="images/hero-desktop.jpg" alt="hero-desktop">
       </div>
-
     </div>
-    <!--Mobilde Bu Kısım yok-->
   </div>
-  
-
 </body>
 
 </html>
